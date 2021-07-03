@@ -1,0 +1,107 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #222;
+}
+.header{
+  width: 100%;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+}
+.error{
+  max-width: 400px;
+  margin: 0 auto;
+  color: rgb(160, 30, 30);
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  background-color: aliceblue;
+}
+.group{
+  border: 10px solid #ccc;
+}
+.group input{
+  padding: 5px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  width: 400px; 
+}
+.group button{
+  padding: 10px;
+  outline: none;
+  border: none;
+  height: 100%;
+  background: #00acec;
+  color:#f5f5f5;
+  font-weight: 600;
+  margin-left: 10px;
+}
+.result{
+  padding: 20px;
+}
+.list{
+  display: flex;
+  flex-wrap: wrap;
+}
+.items{
+  margin: 10px;
+  height: 200px;
+  border: 5px solid #ddd;
+
+}
+.items img{
+  width: 100%;
+}
+.loading{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.loader{
+  widows: 50px;height: 50px;
+  border: 5px solid #f5f5f5;
+  border-radius: 50%;
+  border-top: 5px solid #222;
+  transform: rotate(0deg);
+  animation: loading 500ms ease-in-out infinite;
+
+}
+@keyframes loading{
+  to{
+    transform: rotate(360deg);
+  }
+}
+@media  only screen  and (max-width:768px){
+  .error{
+    max-width: 200px;
+    margin: 0 auto;
+  }
+  .header{
+    width: 100%;
+    
+  }
+  .group{
+    max-width: 350px;
+    margin:0 auto;
+    flex-direction: column;
+
+  }
+  .group input{
+    height: 100%;
+    max-width: 330px;
+    margin:0 auto;
+    text-align: center;
+  }
+  .group button{
+   margin-top: 20px;
+   padding: 1px;
+   width: 100px;
+   font-size: 20px;
+   border-radius: 10px;
+  }
+}
