@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Gify-Search/static/css/main.a8b713fc.chunk.css",
+    "main.js": "/Gify-Search/static/js/main.ced2fe15.chunk.js",
+    "main.js.map": "/Gify-Search/static/js/main.ced2fe15.chunk.js.map",
+    "runtime-main.js": "/Gify-Search/static/js/runtime-main.faab8b8e.js",
+    "runtime-main.js.map": "/Gify-Search/static/js/runtime-main.faab8b8e.js.map",
+    "static/js/2.a4d85b87.chunk.js": "/Gify-Search/static/js/2.a4d85b87.chunk.js",
+    "static/js/2.a4d85b87.chunk.js.map": "/Gify-Search/static/js/2.a4d85b87.chunk.js.map",
+    "static/js/3.b7126d35.chunk.js": "/Gify-Search/static/js/3.b7126d35.chunk.js",
+    "static/js/3.b7126d35.chunk.js.map": "/Gify-Search/static/js/3.b7126d35.chunk.js.map",
+    "index.html": "/Gify-Search/index.html",
+    "static/css/main.a8b713fc.chunk.css.map": "/Gify-Search/static/css/main.a8b713fc.chunk.css.map",
+    "static/js/2.a4d85b87.chunk.js.LICENSE.txt": "/Gify-Search/static/js/2.a4d85b87.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.faab8b8e.js",
+    "static/js/2.a4d85b87.chunk.js",
+    "static/css/main.a8b713fc.chunk.css",
+    "static/js/main.ced2fe15.chunk.js"
+  ]
+}
