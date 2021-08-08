@@ -12,3 +12,5 @@ You will also see any lint errors in the console.
 
 GIFY-SEARCH  allow user to search the gif by entering search keyword .
 giphy api is used.
+
+Demo: http://Varun-020.github.io/Gify-Search
